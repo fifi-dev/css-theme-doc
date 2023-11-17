@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -20,13 +20,13 @@
       loadSidebar: true,
       subMaxLevel: 2,
       name: '',
-      repo: '', search: 'auto', // default
+      repo: '', 
+      logo: '/docs/asset/Logo.svg',
+      search: 'auto', // default
 
 search: [
   '/',            // => /README.md
-  '/guide',       // => /guide.md
-  '/get-started', // => /get-started.md
-  '/zh-cn/',      // => /zh-cn/README.md
+  '/commencer',       // => /guide.md
 ],
 
 // complete configuration parameters
@@ -37,7 +37,6 @@ search: {
 
   // Localization
   placeholder: {
-    '/zh-cn/': '搜索',
     '/': 'Type to search',
   },
 
@@ -45,7 +44,6 @@ search: {
 
   // Localization
   noData: {
-    '/zh-cn/': '找不到结果',
     '/': 'No Results',
   },
 
