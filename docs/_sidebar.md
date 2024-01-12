@@ -2,5 +2,5 @@
 * [Commencer](Commencer.md)
 * [Bases](Bases.md)
 * [Personnalisation](Personnalisation.md)
-* [Changelog](Changelog.md)
+<!-- * [Changelog](Changelog.md) -->
 * [License](License.md)
